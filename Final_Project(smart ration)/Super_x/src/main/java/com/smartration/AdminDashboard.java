@@ -42,7 +42,7 @@ import javafx.scene.shape.Circle;
 import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
-
+import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
@@ -51,8 +51,8 @@ public class AdminDashboard {
     Stage dashboardStage;
 
     // Firebase Configuration
-    private final static String FIREBASE_API_KEY = "AIzaSyCw_hJmevrQsmsQ1Mg0LKBylH7z6zLcsNw";
-    private final static String PROJECT_ID = "new-ration";
+    private final static String FIREBASE_API_KEY = "AIzaSyDWIPwQ5nn65g2f5WKgdQ6LnQsa2rH0NF0";
+    private final static String PROJECT_ID = "smart-ration-550f9";
 
     // Data holders for real-time data
     private int totalUsers = 0;

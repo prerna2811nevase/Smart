@@ -20,8 +20,8 @@ import java.net.URL;
 
 public class SignupForm {
 
-    private final String FIREBASE_API_KEY = "AIzaSyCw_hJmevrQsmsQ1Mg0LKBylH7z6zLcsNw";
-    private final String PROJECT_ID = "new-ration";
+    private final String FIREBASE_API_KEY = "AIzaSyDWIPwQ5nn65g2f5WKgdQ6LnQsa2rH0NF0";
+    private final String PROJECT_ID = "smart-ration-550f9";
 
     public void initialize(Stage stage) {
         // Header section with gradient background - matching login form

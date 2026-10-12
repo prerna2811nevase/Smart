@@ -25,8 +25,8 @@ public class displayStock {
     Stage quatapStage;
     Scene quataScene;
 
-    static final String Project_id = "new-ration";
-    static final String API_key = "AIzaSyCw_hJmevrQsmsQ1Mg0LKBylH7z6zLcsNw";
+    static final String Project_id = "smart-ration-550f9";
+    static final String API_key = "AIzaSyDWIPwQ5nn65g2f5WKgdQ6LnQsa2rH0NF0";
 
     public void setQuataScene(Scene quataScene) {
         this.quataScene = quataScene;

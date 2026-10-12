@@ -221,7 +221,7 @@ stage.setResizable(false);
 
 private boolean signInWithEmailAndPassword(String email, String password) {
     try {
-        URL url = new URL("https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyCw_hJmevrQsmsQ1Mg0LKBylH7z6zLcsNw");
+        URL url = new URL("https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyDWIPwQ5nn65g2f5WKgdQ6LnQsa2rH0NF0");
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
         conn.setRequestMethod("POST");
         conn.setRequestProperty("Content-Type", "application/json");

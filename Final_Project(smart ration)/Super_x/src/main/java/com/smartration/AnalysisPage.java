@@ -57,8 +57,8 @@ public class AnalysisPage {
     Stage analysisStage;
     
     // Firebase Configuration - Same as AdminDashboard
-    private final static String FIREBASE_API_KEY = "AIzaSyCw_hJmevrQsmsQ1Mg0LKBylH7z6zLcsNw";
-    private final static String PROJECT_ID = "new-ration";
+    private final static String FIREBASE_API_KEY = "AIzaSyDWIPwQ5nn65g2f5WKgdQ6LnQsa2rH0NF0";
+    private final static String PROJECT_ID = "smart-ration-550f9";
 
     
     // UI Components

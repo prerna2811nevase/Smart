@@ -24,7 +24,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.Optional;
 
 public class UserDashboard {
-    private final String PROJECT_ID = "new-ration";
+    private final String PROJECT_ID = "smart-ration-550f9";
 
     private BorderPane mainRoot;
     private String userName;
@@ -186,6 +186,7 @@ public class UserDashboard {
     "🏠 Dashboard",
     "📜 History",
     "📝 Scheme Details",
+    "ℹ️ About Us",
     "📞 Contact Support"
 };
 
@@ -237,7 +238,15 @@ public class UserDashboard {
                 
     }   
        
-  
+  case "ℹ️ About Us" -> {
+    Scene currentScene = stage.getScene();
+    AboutUs aboutUs = new AboutUs(stage, currentScene);
+    Parent root = aboutUs.getContent();
+    Scene aboutScene = new Scene(root, 1400, 900);
+    stage.setScene(aboutScene);
+    stage.show();
+}
+
     case "📞 Contact Support" ->
         mainRoot.setCenter(createContactSupportPage());
 }
